@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://hanroro.com'),
   title: '한로로, HANRORO',
   description: '한로로와 관련된 다양한 정보를 제공해요.',
   openGraph: {
