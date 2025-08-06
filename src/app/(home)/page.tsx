@@ -1,7 +1,6 @@
 import { InstagramIcon, MnetPlusIcon, NaverBlogIcon, YoutubeIcon } from '@/shared/icon';
 import TextType from './ui/text-type';
 import { YouTubeEmbed } from '@next/third-parties/google';
-import Dither from './ui/dither';
 
 const SNS_LINKS = [
   {
