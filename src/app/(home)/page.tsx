@@ -1,6 +1,7 @@
 import { InstagramIcon, MnetPlusIcon, NaverBlogIcon, YoutubeIcon } from '@/shared/icon';
 import TextType from './ui/text-type';
 import { YouTubeEmbed } from '@next/third-parties/google';
+import Image from 'next/image';
 
 const SNS_LINKS = [
   {
@@ -27,8 +28,10 @@ const SNS_LINKS = [
 
 export default function Home() {
   return (
-    <div className='flex h-screen w-screen items-center justify-center max-w-3xl flex-col mx-auto'>
-      <div className='w-full mb-12 px-4'>
+    <div className='flex h-screen w-screen items-center justify-center max-w-3xl flex-col mx-auto gap-12'>
+      <Image className='rounded-full' src='/hanroro.jpg' alt='background' width={100} height={100} />
+
+      <div className='w-full px-8'>
         <div className='w-full mx-auto'>
           <YouTubeEmbed videoid='tKERw3_ked0' />
         </div>
