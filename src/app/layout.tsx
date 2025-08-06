@@ -28,9 +28,6 @@ export const metadata: Metadata = {
   },
   authors: [{ name: '한로로', url: 'https://hanroro.com' }],
   keywords: ['한로로', 'HANRORO', '이상비행', '집', '자몽살구클럽'],
-  icons: {
-    icon: '/favicon.ico',
-  },
   robots: {
     index: true,
     follow: true,
