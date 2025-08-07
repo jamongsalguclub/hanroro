@@ -28,7 +28,7 @@ const SNS_LINKS = [
 
 export default function Home() {
   return (
-    <div className='flex h-dvh w-screen items-center justify-center max-w-3xl flex-col mx-auto gap-12'>
+    <div className='flex min-h-dvh w-full items-center justify-center max-w-3xl flex-col mx-auto gap-12 py-12'>
       <Image className='rounded-full' src='/hanroro.jpg' alt='background' width={100} height={100} />
 
       <div className='w-full px-8'>
