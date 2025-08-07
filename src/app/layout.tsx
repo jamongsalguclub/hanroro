@@ -4,14 +4,14 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hanroro.com'),
+  metadataBase: new URL('https://www.hanroro.com'),
   title: '한로로 HANRORO',
   description: '한로로와 관련된 다양한 정보를 제공해요.',
   openGraph: {
     title: '한로로 HANRORO',
     description: '한로로와 관련된 다양한 정보를 제공해요.',
     siteName: '한로로 HANRORO',
-    url: 'https://hanroro.com',
+    url: 'https://www.hanroro.com',
     locale: 'ko_KR',
     images: [
       {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: '한로로와 관련된 다양한 정보를 제공해요.',
     images: ['/og-image.webp'],
   },
-  authors: [{ name: '한로로', url: 'https://hanroro.com' }],
+  authors: [{ name: '한로로', url: 'https://www.hanroro.com' }],
   keywords: ['한로로', 'HANRORO', '이상비행', '집', '자몽살구클럽'],
   robots: {
     index: true,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://hanroro.com',
+    canonical: 'https://www.hanroro.com',
   },
   other: {
     'naver-site-verification': '99eb1cf3ad2eae187fa4b3c0c3b694c5a1c3bbd9',
