@@ -4,12 +4,12 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://hanroro.com'),
-  title: '한로로, HANRORO',
+  title: '한로로 HANRORO',
   description: '한로로와 관련된 다양한 정보를 제공해요.',
   openGraph: {
-    title: '한로로, HANRORO',
+    title: '한로로 HANRORO',
     description: '한로로와 관련된 다양한 정보를 제공해요.',
-    siteName: '한로로, HANRORO',
+    siteName: '한로로 HANRORO',
     url: 'https://hanroro.com',
     locale: 'ko_KR',
     images: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: '한로로, HANRORO',
+    title: '한로로 HANRORO',
     description: '한로로와 관련된 다양한 정보를 제공해요.',
     images: ['/og-image.webp'],
   },
