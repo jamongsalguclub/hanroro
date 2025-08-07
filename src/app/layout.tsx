@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
 import './globals.css';
 
@@ -53,6 +54,7 @@ export default function RootLayout({
     <html lang='ko'>
       <body className='antialiased'>
         {children}
+        <Analytics />
         <GoogleAnalytics gaId='G-XYP3PBZFC8' />
       </body>
     </html>
