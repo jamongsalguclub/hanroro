@@ -1,6 +1,8 @@
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
+import localFont from 'next/font/local';
+
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -44,6 +46,13 @@ export const metadata: Metadata = {
     'naver-site-verification': '99eb1cf3ad2eae187fa4b3c0c3b694c5a1c3bbd9',
   },
 };
+
+const pretendard = localFont({
+  src: '../shared/fonts/PretendardVariable.woff2',
+  display: 'swap',
+  weight: '100 900',
+  variable: '--font-pretendard',
+});
 
 export default function RootLayout({
   children,
