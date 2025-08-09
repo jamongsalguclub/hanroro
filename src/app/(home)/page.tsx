@@ -54,6 +54,13 @@ export default function Home() {
           </a>
         ))}
       </div>
+
+      <a
+        href='https://forms.gle/VD6Rqd6HWiw9ufYDA'
+        className='px-8 py-3 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 text-white font-medium'
+      >
+        Contact
+      </a>
     </div>
   );
 }

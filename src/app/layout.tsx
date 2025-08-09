@@ -61,7 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ko'>
-      <body className='antialiased'>
+      <body className={`antialiased ${pretendard.variable} bg-[#121212] text-[#ededed]`}>
         {children}
         <Analytics />
         <GoogleAnalytics gaId='G-XYP3PBZFC8' />
